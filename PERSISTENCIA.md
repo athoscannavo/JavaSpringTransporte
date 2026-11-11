@@ -135,3 +135,5 @@ As chaves estrangeiras, colunas obrigatórias e restrições únicas descritas a
 - Atualizar ocupações e gravar uma solicitação atomicamente, incluindo controle de concorrência.
 
 Esses comportamentos pertencem a tarefas posteriores do backlog; a existência das tabelas não significa que essas validações ou operações já estejam implementadas.
+
+atualizando a branch para poder dar o push no repositorio do github

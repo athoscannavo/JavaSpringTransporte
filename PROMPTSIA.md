@@ -2,6 +2,8 @@
 
 Copie o conteúdo entre as linhas abaixo para iniciar uma conversa com uma IA sobre este projeto. Antes de executar qualquer tarefa, forneça acesso ao repositório ou compartilhe os arquivos relevantes.
 
+Quando houver trabalho paralelo entre pessoas ou IAs, use também o [`GUIACOOP.md`](./GUIACOOP.md) como prompt adicional, depois destas orientações.
+
 ---
 
 ## Contexto e objetivo

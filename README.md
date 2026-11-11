@@ -48,6 +48,8 @@ As tarefas necessárias para implementar esses serviços estão listadas em [BAC
 
 Para orientar o uso de IA em outras conversas e manter as decisões e prioridades do projeto, consulte [PROMPTSIA.md](./PROMPTSIA.md).
 
+Quando houver trabalho em paralelo, consulte também o [GUIACOOP.md](./GUIACOOP.md), como complemento ao `PROMPTSIA.md`.
+
 ## Como executar o projeto
 
 ### Pré-requisitos

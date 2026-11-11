@@ -48,7 +48,7 @@ As solicitações não podem causar lotação acima da capacidade, inclusive qua
 Confirme este estado nos arquivos atuais antes de se basear nele, pois o projeto pode ter evoluído:
 
 - A aplicação Spring Boot fica no módulo `demo`.
-- As tarefas 1, 2 e 3 do backlog estão marcadas como concluídas.
+- As tarefas 1, 2, 3 e 4 do backlog estão marcadas como concluídas.
 - Os modelos de domínio foram criados em `demo/src/main/java/com/example/demo/model/`:
   - `Linha`: `UUID` e nome não vazio.
   - `Onibus`: `UUID`, linha, capacidade positiva, horário `LocalTime`, estado tipado, posição identificada por uma parada e ocupação por trecho.
@@ -58,8 +58,9 @@ Confirme este estado nos arquivos atuais antes de se basear nele, pois o projeto
 - Os modelos são `record`s imutáveis e geram identificadores UUID pelas fábricas `criar`.
 - Há testes unitários dos modelos em `demo/src/test/java/com/example/demo/model/ModelosTransporteTests.java`.
 - A lotação de cada ônibus é inicializada em zero para cada par de paradas consecutivas; a atualização por trecho valida a correspondência com o percurso e o limite da capacidade.
-- A próxima tarefa é a número 4: configurar persistência. Não a execute a menos que o usuário a solicite.
-- A configuração atual usa Maven Wrapper e o projeto não deve ser considerado persistente só por ter modelos de domínio. Confira o `pom.xml` e o código antes de afirmar quais tecnologias estão implementadas.
+- A persistência usa Spring Data JPA/Hibernate e H2 em arquivo; as entidades e repositórios ficam no pacote `persistence`. O esquema é atualizado na inicialização e não há dados de demonstração.
+- A próxima tarefa é a número 5: validar os dados de domínio. Não a execute a menos que o usuário a solicite.
+- A configuração do projeto usa Maven Wrapper. Confira o `pom.xml` e o código antes de afirmar quais tecnologias estão implementadas.
 
 ## Validação e ambiente
 

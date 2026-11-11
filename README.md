@@ -72,6 +72,12 @@ Quando houver trabalho em paralelo, consulte também o [GUIACOOP.md](./GUIACOOP.
 
 **Observação:** mantenha o terminal aberto enquanto estiver utilizando a aplicação.
 
+### Persistência local
+
+Os dados são armazenados em um banco H2 em arquivo, no caminho `demo/data/transporte.mv.db` quando a aplicação é iniciada a partir do módulo `demo`. O esquema é atualizado pelo Hibernate na inicialização; nenhum dado de demonstração é criado automaticamente.
+
+Para entender a configuração, as tabelas, suas colunas e relacionamentos, consulte [PERSISTENCIA.md](./PERSISTENCIA.md).
+
 ### Windows (PowerShell)
 
 ```powershell

@@ -16,7 +16,7 @@
 5. [ ] Validar os dados de domínio: limitar a três linhas e impedir lotação acima da capacidade.
    - Aplicar validações ao criar ou alterar dados, verificando limites, campos obrigatórios e relações válidas.
    - Rejeitar a criação de uma quarta linha e qualquer ocupação negativa ou superior à capacidade.
-6. [ ] Criar operação para listar as linhas disponíveis.
+6. [x] Criar operação para listar as linhas disponíveis.
    - Implementar um endpoint de consulta que leia as linhas persistidas e retorne identificador e informações úteis para seleção.
    - Retornar uma coleção vazia quando não houver linhas cadastradas, sem criar resultados estáticos.
 7. [ ] Criar operação para listar os ônibus de uma linha com estado, horário de saída, lotação e capacidade.

@@ -50,6 +50,10 @@ Para orientar o uso de IA em outras conversas e manter as decisões e prioridade
 
 Quando houver trabalho em paralelo, consulte também o [GUIACOOP.md](./GUIACOOP.md), como complemento ao `PROMPTSIA.md`.
 
+### API de linhas
+
+`GET /api/linhas` lista as linhas persistidas e retorna o identificador e o nome de cada uma. Quando não houver linhas cadastradas, a resposta é uma lista vazia (`[]`).
+
 ## Como executar o projeto
 
 ### Pré-requisitos

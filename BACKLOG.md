@@ -9,7 +9,7 @@
 3. [x] Registrar a capacidade, a lotação por trecho, o horário de saída, o estado e a posição atual de cada ônibus.
    - Definir os campos do ônibus e representar a ocupação entre cada par de paradas consecutivas.
    - Definir os valores permitidos para o estado do ônibus e representar a posição atual pelo identificador de uma parada da linha.
-4. [ ] Configurar persistência para manter os dados após reiniciar a aplicação.
+4. [x] Configurar persistência para manter os dados após reiniciar a aplicação.
    - Selecionar e configurar um banco de dados compatível com o projeto e a dependência de acesso a dados.
    - Criar repositórios e o esquema/tabelas para linhas, ônibus, paradas, ocupação por trecho e solicitações.
    - Configurar inicialização de dados de desenvolvimento, se necessária, sem depender de dados fictícios nos endpoints.
